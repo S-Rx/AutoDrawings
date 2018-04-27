@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 17.0-->
+  <ClassId>{309a7b53-dba7-42c3-9e49-faf0c6329047}</ClassId>
+  <ClientId>{309a7b53-dba7-42c3-9e49-faf0c6329047}</ClientId>
+  <DisplayName>AutoDrawings</DisplayName>
+  <Description>AutoDrawings</Description>
+  <Assembly>AutoDrawings.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>16..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+
+  <assemblyIdentity name="AutoDrawings" version="1.0.0.0"></assemblyIdentity>
+
+  <clrClass clsid="{309a7b53-dba7-42c3-9e49-faf0c6329047}" progid="AutoDrawings.StandardAddInServer" threadingModel="Both" name="AutoDrawings.StandardAddInServer" runtimeVersion=""></clrClass>
+
+  <file name="AutoDrawings.dll" hashalg="SHA1"></file>
+
+</assembly>
