@@ -2,6 +2,7 @@ using System;
 using System.Runtime.InteropServices;
 using Inventor;
 using Microsoft.Win32;
+using InvAddIn;
 
 namespace AutoDrawings
 {
@@ -13,9 +14,11 @@ namespace AutoDrawings
     [GuidAttribute("309a7b53-dba7-42c3-9e49-faf0c6329047")]
     public class StandardAddInServer : Inventor.ApplicationAddInServer
     {
+        public static event EventHandler OnDeactivate;
 
         // Inventor application object.
         private Inventor.Application m_inventorApplication;
+        private CAddIn addin;
 
         public StandardAddInServer()
         {
@@ -31,6 +34,12 @@ namespace AutoDrawings
 
             // Initialize AddIn members.
             m_inventorApplication = addInSiteObject.Application;
+            addin = new CAddIn(m_inventorApplication);
+
+            if (firstTime)
+            {
+                addin.CreateUI();
+            }
 
             // TODO: Add ApplicationAddInServer.Activate implementation.
             // e.g. event initialization, command creation etc.
@@ -43,6 +52,7 @@ namespace AutoDrawings
             // when the Inventor session is terminated
 
             // TODO: Add ApplicationAddInServer.Deactivate implementation
+            StandardAddInServer.OnDeactivate?.Invoke(null, null);
 
             // Release objects.
             Marshal.ReleaseComObject(m_inventorApplication);
