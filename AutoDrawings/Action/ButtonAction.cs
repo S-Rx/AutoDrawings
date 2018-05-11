@@ -10,12 +10,6 @@ using InvAddIn.Extensions;
 
 namespace InvAddIn.Action
 {
-    internal struct DrawingSheet
-    {
-        public Document oModel;
-        public SheetFormat oFormat;
-    }
-
     internal class ButtonAction
     {
         private AssemblyDocument oAsmDoc;
