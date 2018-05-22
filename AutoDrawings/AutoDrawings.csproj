@@ -102,8 +102,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CAddIn.cs" />
-    <Compile Include="Drawings\Drawing.cs" />
-    <Compile Include="Drawings\Sheet.cs" />
+    <Compile Include="Drawings\DrawingMaker.cs" />
+    <Compile Include="Drawings\SheetParameters.cs" />
+    <Compile Include="Drawings\ViewParameters.cs" />
     <Compile Include="InvExtensions\InventorExtensions.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>

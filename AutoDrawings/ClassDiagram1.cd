@@ -1,2 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AutoDrawings.StandardAddInServer" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAABAAABAAAAAAAAgAAEAAAAAAAAAAAAIAAI=</HashCode>
+      <FileName>StandardAddInServer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InvAddIn.CAddIn" Collapsed="true">
+    <Position X="2.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>CAddIn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvAddIn.UI.RxButton" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAACCAgAAAAAAoAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvAddIn.UI.Button" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvAddIn.UI.RxRibbon" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAgAAAAAAAAAAAAAAAAAAABAAAAAIAAAAA=</HashCode>
+      <FileName>UI\Ribbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvAddIn.UI.RibbonExtensions" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Ribbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvAddIn.UI.ParametrizedRibbon" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\Ribbon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvAddIn.Drawings.Drawing">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAQEgAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Drawings\Drawing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InvAddIn.Drawings.Sheet" Collapsed="true">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Drawings\Sheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
